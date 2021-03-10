@@ -1,0 +1,37 @@
+/* style.css */
+body{
+    background-color:rgb(162, 172, 175);
+    color:rgb(29, 37, 44);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 80px;
+    padding: 0px 10px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:rgb(1, 51, 105);
+    overflow-x: hidden;
+    padding-top: 20px;
+    text-align: center;
+    border: 2px solid rgb(29, 37, 44);
+    color:white;
+}
+
+table, th, td{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+}
+
+.div1{
+    border: 5px outset rgb(1, 51, 105);
+    background-color:rgb(162, 172, 175);
+    width: 99.5%;
+}
+
+h1{
+    text-align: center;
+}

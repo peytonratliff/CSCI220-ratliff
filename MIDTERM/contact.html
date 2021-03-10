@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Horseshoe Nook Contact</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <style>
+
+            .div1{
+                text-align:center;
+            }
+            
+        </style>
+    </head>
+
+    <!--
+        The contact page is simple - use it to get in contact with the creator.
+        Contact submissions made via a form with a mailto action. Getting an email
+        service (or some sort of message forward-er, maybe zendesk?) working would
+        be a really cool project.
+    -->
+    <body>
+
+    <h1>Horseshoe Nook Contact</h1>
+    <hr>
+
+    <div class="div1">
+    <p>Use the form below to get in contact with the Horseshoe Nook staff! Recommend changes and articles, ask us questions, or send us kind letters.</p>
+    <p>Leave your email in the response and we'll try to get back to you soon.</p>
+    <br>
+    <form action="mailto:ratliffpm@cougars.sf.edu" method="POST" name="emailForm">
+
+        <label for="contactName">Name:</label><br>
+        
+        <input type="text" size="22" name="contactName" id="contaceName"><br><br>
+
+        <label for="contactComment">Message:</label><br>
+
+        <textarea name="" rows="6" cols="60"> </textarea> <br>
+
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+
+    <div class="sidebar">
+        <p>Navigation:</p>
+        <a href="index.html"style="color: white;"><p>Home</p></a>
+        <a href="news.html"style="color: white;"><p>News</p></a>
+        <a href="schedule.html"style="color: white;"><p>Schedule</p></a>
+        <a href="about.html"style="color: white;"><p>About</p></a>
+        <a href="contact.html"style="color: white;"><p>Contact</p></a>
+    </div>
+
+    </body>
+
+</html>

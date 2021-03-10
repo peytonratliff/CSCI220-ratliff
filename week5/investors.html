@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Disclosure of Investors</title>
+        <style>
+
+            /*The entire body is altered to make room for the sidebar*/ 
+            body{
+                background-color:rgb(250, 250, 210);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                margin-left: 80px;
+                padding: 0px 10px;
+            }
+
+            h1{
+                text-align: center;
+                font-size: 50px;
+                color:rgb(128, 0, 0);
+            }
+            
+            table, th, td{
+                border: 1px solid rgb(0, 0, 0);
+                padding: 5px;
+            }
+
+            img{
+                width: 200px;
+                height: auto;
+            }
+
+            .div1{
+                border: 5px outset rgb(128, 0, 0);
+                background-color:rgb(255, 222, 173)
+            }
+
+            /*For how simple this site is, I decided to make the navigation scheme a sidebar instead of a menu.
+            To make sure I meet the requirements, I'll inclue the code for a functioning menu at the bottom
+            of the document*/
+            .sidebar {
+                height: 100%;
+                width: 80px;
+                position: fixed;
+                top: 0;
+                left: 0;
+                background-color:rgb(205, 133, 63);
+                overflow-x: hidden;
+                padding-top: 20px;
+                text-align: center;
+                border: 2px solid rgb(0, 0, 0)
+            }
+
+        </style>
+    </head>
+
+
+    <body>
+
+        <h1>Disclosure of Investors</h1>
+        <hr>
+
+    <!-- 
+    All of the investor information is stored in a table, which is nested in a div.
+    -->
+        <div class="div1">
+            <table>
+                <tr>
+                    <th>Investor Logo</th>
+                    <th>Investor Name</th>
+                    <th>Investor Information</th>
+                    <th>Investor Funding</th>
+                </tr>
+                <tr>
+                    <th><img src="radtech-logo.jpg" alt="RadTech, Inc."></th>
+                    <th>RadTech, Inc.</th>
+                    <th>RadTech is an industry leader providing advanced technology for conducting scientific research.</th>
+                    <th>$50,000</th>
+                </tr>
+                <tr>
+                    <th><img src="upstart-logo.jpg" alt="Upstart Pharmaceuticals"></th>
+                    <th>Upstart Pharmaceuticals</th>
+                    <th>Upstart research scientists are working to develop the next generation of safe, all-natural, and cost-effective supplements to help fight fatigue and provide mental focus for students and business professionals. </th>
+                    <th>$75,000</th>
+                </tr>
+                <tr>
+                    <th><img src="polytech-logo.jpg" alt="Polytechnic University"></th>
+                    <th>Polytechnic University</th>
+                    <th>Polytechnic University is investing in research to benefit students by providing funding and internship opportunities for students in biology and chemistry. </th>
+                    <th>$25,000</th>
+                </tr>
+            </table>
+        </div>
+
+        <div class="sidebar">
+            <p>Navigation:</p>
+            <a href="index.html">Study</a>
+            <a href="investors.html">Investors</a>
+        </div>
+
+    </body>
+
+</html>
+
+<!--
+Here is the code for a working menu for the site, which I decided to scrap because I think that
+the simplicity of the site greatly lends itself to the classic sidebar navigation menu. Some may describe
+the sidebar as antiquated, I'd describe it as situationally effective. A sidebar wouldn't be effective
+for a site like www.nvidia.com, but it is effective in a site with so few pages.
+
+
+.vertical-menu {
+    width: 200px;
+    background-color:rgb(205, 133, 63);
+    text-decoration: none;
+    padding: 12px;
+}
+
+<div class="vertical-menu">
+    <a href="index.html">Study</a>
+    <a href="investors.html">Investors</a>
+</div>
+
+
+-->
