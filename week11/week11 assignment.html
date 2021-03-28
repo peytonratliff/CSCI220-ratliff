@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>To Do List</title>
+        <style>
+            body{
+                background-color: rgb(72, 61, 139);
+                color: rgb(240, 234, 214);
+            }
+
+            button{
+
+            }
+
+        </style>
+        <script src="jquery-3.6.0.js"></script>
+    </head>
+
+    <body>
+
+        <h1>To Do List</h1>
+        <input id="input" type="text">
+        <button id="addButton" onClick="addItemFunction">Add Item</button>
+        <button id="clearButton" onClick="clearListFunction">Clear List</button>
+        <ul id="list">
+
+        </ul>
+        
+        <script>
+            function addItemFunction(){
+                //var item = document.getElementByID("list");
+                //item.appendChild(document.createTextNode(document.getElementByID(input)));
+                //document.querySelector("list").appendChild(item)
+
+                var item = document.createElement("li");
+                item.appendChild(document.createTextNode(document.getElementByID(input)));
+                document.querySelector("ul").appendChild(item)
+            }
+
+            function clearListFunction(){
+
+            }
+
+
+            var echoItem = document.getElementById('1');
+            console.log(echoItem);
+        </script>
+
+    </body>
+
+</html>
